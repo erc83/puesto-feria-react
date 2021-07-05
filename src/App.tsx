@@ -3,7 +3,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      ¡Hola Mundo!
+      <div className='container alert alert-primary' role='alert'>
+        ¡Hola Mundo!
+      </div>
     </div>
   );
 }
